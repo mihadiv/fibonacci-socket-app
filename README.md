@@ -14,7 +14,6 @@ The application includes two parallel implementations:
   - `server_fib_reverse.py`: Computes the first `n` Fibonacci numbers and returns them in reverse order.
   - `client_fib_reverse.py`: Sends `n` to the server and displays the reversed sequence.
 
-All communication is performed over TCP using port `8822`.
 
 ## 🗂️ File Structure
 
@@ -27,6 +26,9 @@ All communication is performed over TCP using port `8822`.
 | `project_report_ro.pdf` | Project documentation (in Romanian)        |
 
 ## 🚀 How to Run
+
+> ⚠️ This project was tested in a remote academic environment using **Bitvise SSH Client** to connect to a Linux server with access to IP `37.120.249.45`, port `8822`.
+> You may need a similar setup (e.g., local VM, private server, or SSH-accessible lab machine) to run the application successfully.
 
 ### 🔧 C Version
 
