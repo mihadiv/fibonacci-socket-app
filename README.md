@@ -28,7 +28,7 @@ The application includes two parallel implementations:
 ## 🚀 How to Run
 
 > ⚠️ This project was tested in a remote academic environment using **Bitvise SSH Client** to connect to a Linux server with access to IP `37.120.249.45`, port `8822`.
-> You may need a similar setup (e.g., local VM, private server, or SSH-accessible lab machine) to run the application successfully.
+> You may need a similar setup (e.g. local VM, private server, or SSH-accessible lab machine) to run the application successfully.
 
 ### 🔧 C Version
 
