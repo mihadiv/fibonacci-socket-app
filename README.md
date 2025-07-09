@@ -28,7 +28,7 @@ All communication is performed over TCP using port `8822`.
 
 ## 🚀 How to Run
 
-### ✅ C Version
+### 🔧 C Version
 
 ```bash
 gcc server_fib_sum.c -o server
@@ -52,8 +52,9 @@ python3 client_fib_reverse.py
 
 ## 💡 Notes
 
-- All files use TCP sockets.
+- All components communicate using TCP sockets.
 - Both servers listen on IP `37.120.249.45`, port `8822`.
-- Make sure the server is running before starting the client.
+- Ensure the server is running before launching the corresponding client.
+- The C version returns the original Fibonacci sequence with sum, while the Python version returns the reversed sequence.
 
  
